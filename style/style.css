@@ -1,75 +1,77 @@
-header .container .section1 .row {
-  height: 50px; }
-  header .container .section1 .row .btn {
-    font-size: 16px;
-    color: #0067ff;
-    font-weight: 400; }
-  header .container .section1 .row .btn:hover {
-    border-top: 1px solid silver;
-    font-weight: 700;
-    cursor: pointer; }
-  header .container .section1 .row .div1 {
-    height: 50px;
-    width: 130px; }
-  header .container .section1 .row .div1:hover {
-    border-top: 1px solid silver; }
-    header .container .section1 .row .div1:hover h5 {
-      cursor: pointer;
-      font-weight: 700; }
-  header .container .section1 .row .img1 {
+body {
+  height: 3800px; }
+
+.section1 .container .col-5 .row input {
+  width: 250px;
+  height: 40px;
+  border: 2px solid silver; }
+.section1 .container .col-5 .row .btn {
+  height: 40px;
+  background-color: green; }
+  .section1 .container .col-5 .row .btn p {
+    color: white; }
+
+.section2 div .h75 {
+  margin-top: 100px; }
+.section2 div .div1:hover {
+  cursor: pointer; }
+.section2 div .div1 {
+  margin-top: -450px;
+  width: 200px;
+  height: 200px;
+  border: 5px solid #1ee154;
+  border-radius: 50%;
+  background-color: green;
+  animation-name: btn;
+  animation-duration: 1s;
+  animation-iteration-count: infinite; }
+  .section2 div .div1 .img1 {
+    margin-left: -70px;
     width: 40px;
     height: 40px; }
-  header .container .section1 .row h5 {
-    font-weight: 400;
-    color: #0067ff; }
-header .container .section2 {
-  margin-left: -100px;
-  width: 1300px;
-  height: 700px;
-  background-color: silver; }
-  header .container .section2 .row .col-4 .btn {
-    width: 200px; }
-    header .container .section2 .row .col-4 .btn img {
-      width: 20px;
-      height: 20px; }
-  header .container .section2 .row .c4 {
-    height: 130px;
-    border-radius: 5px;
-    color: white;
-    background-color: #22b66e; }
-    header .container .section2 .row .c4 h4 {
-      font-weight: 400; }
-header .container .section3 {
-  margin-top: 200px; }
-  header .container .section3 .row h5 {
-    font-weight: 700; }
-  header .container .section3 .row .col-3 {
-    background-color: white; }
-  header .container .section3 .row .col-3:hover {
-    background: #636363;
+  .section2 div .div1 h6 {
+    margin-top: 100px;
+    margin-left: 35px;
     color: white; }
-  header .container .section3 .row .c45:hover {
-    background: #636363;
-    color: white; }
-  header .container .section3 .row .c44:hover {
-    background-color: #636363; }
-  header .container .section3 h2 {
-    margin-left: 200px; }
-  header .container .section3 .c45 {
-    height: 200px;
-    border-radius: 5px;
-    background-color: white !important; }
-  header .container .section3 .c44 {
-    height: 200px;
-    margin-left: 210px;
-    border-radius: 5px;
-    background-color: white; }
-    header .container .section3 .c44 .row .d1 {
-      margin-left: 80px; }
-    header .container .section3 .c44 .row h5 {
-      font-weight: 700; }
+@keyframes btn {
+  0% {
+    box-shadow: 0 0 0 #19de50, 0 0 0 15px #1ee154; }
+  100% {
+    box-shadow: 0 0 0 0 #19de50, 0 0 0 30px transparent; } }
+.section3 .container .row .col-5 {
+  margin-top: 180px; }
+.section3 .container .row .col-7 .img2 {
+  width: 635px; }
 
-.dr1 {
-  width: 135px; }
+.section4 .container .row .col-7 .map {
+  width: 700px; }
+.section4 .container .row .col-5 input {
+  width: 300px; }
+.section4 .container .row .col-5 .btn {
+  height: 40px;
+  background-color: green; }
+  .section4 .container .row .col-5 .btn p {
+    color: white; }
+
+.section5 .container .row .col-2 h6 {
+  width: 300px; }
+.section5 .container .row .col-1 h6 {
+  color: #9c9c9c; }
+
+.section6 .container .row .card3 .h65 {
+  color: #979797; }
+.section6 .container .row .card3 .h66 {
+  width: 150px;
+  border-right: 2px solid #979797;
+  color: #979797; }
+.section6 .container .col-3 .card3 h6 {
+  border-left: 2px solid silver;
+  color: silver; }
+.section6 .container .col-3 img {
+  width: 40px;
+  height: 40px; }
+.section6 .container .col-2 .row img {
+  width: 30px;
+  height: 30px; }
 
 /*# sourceMappingURL=style.css.map */
