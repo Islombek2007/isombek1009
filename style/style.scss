@@ -1,0 +1,111 @@
+header{
+  .container{
+    .section1{
+    .row{
+      height: 50px;
+      .btn{
+        font-size: 16px;
+        color: #0067ff;
+        font-weight: 400;
+      }
+      .btn:hover{
+        border-top: 1px solid silver;
+        font-weight: 700;
+        cursor: pointer;
+      }
+      .div1{
+        height: 50px;
+        width: 130px;
+      }
+      .div1:hover{
+        border-top: 1px solid silver;
+        h5{
+          cursor: pointer;
+          font-weight: 700;
+        }
+      }
+      .img1{
+        width: 40px;
+        height: 40px;
+      }
+      h5{
+        font-weight: 400;
+        color: #0067ff;
+      }
+    }
+    }
+    .section2{
+      margin-left: -100px;
+      width: 1300px;
+      height: 700px;
+      background-color: silver;
+      .row{
+        .col-4{
+          .btn{
+            img{
+              width: 20px;
+              height: 20px;
+            }
+            width: 200px;
+          }
+        }
+        .c4{
+          height: 130px;
+          border-radius: 5px;
+          color: white;
+          background-color: #22b66e;
+          h4{
+            font-weight: 400;
+          }
+        }
+      }
+    }
+    .section3{
+     .row{
+       h5{
+         font-weight: 700;
+       }
+       .col-3{
+         background-color: white;
+       }
+       .col-3:hover{
+         background: #636363;
+         color: white;
+       }
+       .c45:hover{
+         background: #636363;
+         color: white;
+       }
+       .c44:hover{
+         background-color: #636363;
+       }
+     }
+      margin-top: 200px;
+      h2{
+        margin-left: 200px;
+      }
+      .c45{
+        height: 200px;
+        border-radius: 5px;
+        background-color: white !important;
+      }
+      .c44{
+        height: 200px;
+        margin-left: 210px;
+        border-radius: 5px;
+        background-color: white;
+        .row{
+          .d1{
+            margin-left: 80px;
+          }
+          h5{
+            font-weight: 700;
+          }
+        }
+      }
+    }
+  }
+}
+.dr1{
+  width: 135px;
+}
